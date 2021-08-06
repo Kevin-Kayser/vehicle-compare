@@ -1,0 +1,67 @@
+:root {
+    font-family: 'Lato', sans-serif;
+}
+
+/* 
+Utility classes for basic functionality.
+*/
+
+.card {
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    font-weight: bold;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+.grid {
+    display: grid;
+}
+
+.gap-5 {
+    gap: 5px;
+}
+
+.h-full {
+    height: 100vh;
+}
+
+#json {
+    background-color: black;
+    color: white;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.m-5 {
+    margin: 5px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-col {
+    flex-direction: column;
+}

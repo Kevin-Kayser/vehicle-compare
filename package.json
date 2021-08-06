@@ -1,0 +1,21 @@
+{
+  "name": "vehicle-compare",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "live": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kevin-Kayser/vehicle-compare.git"
+  },
+  "author": "Kevin Kayser (https://github.com/Kevin-Kayser)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kevin-Kayser/vehicle-compare/issues"
+  },
+  "homepage": "https://github.com/Kevin-Kayser/vehicle-compare#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
